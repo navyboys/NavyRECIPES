@@ -1,0 +1,31 @@
+body {
+  width: 50%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.incredient {
+  width: 40%;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.photos > img {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px #888888;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+img:hover {
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
